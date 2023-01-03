@@ -1,0 +1,107 @@
+@charset "utf-8";
+@font-face {
+    font-family:"joaoo";
+    src: url(SeymourOne-Regular.ttf);
+}
+body{
+    background-color: black;
+    position: relative;
+}
+
+h1#titulo{
+    font-family: joaoo;
+    font-size: 10vh;
+    padding-top: 30px;
+}
+
+header#joao{
+    height: 250px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: auto;
+}
+
+p#cabeçalhop{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+
+a:hover{
+    color: brown;
+}
+
+div#paragrafo{
+    border-radius: 10px;
+    background-color: white;
+    height: 700px;
+    text-align: left;
+    height: auto;
+
+}
+
+p#paragrafob{
+    padding: 100px;
+    color: black;
+    line-height: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;     
+    padding: 50px;
+    background-color: white;
+    margin-bottom: -30px;
+}
+
+p#paragrafow{
+        color: white;
+        font-size: 50px;
+        line-height: 40px;
+        background-color: rgba(0, 0, 0, 0.367);
+        width: 700px;
+        border-radius: 10px;
+        line-height: 60px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 50px; 
+        position: absolute;
+        transform: translate(0, 25%);
+}
+
+div#sobreposição1{
+    background-image: url(background001.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 700px;
+    background-attachment: fixed;
+    margin-bottom: -50px;
+
+}
+
+div#sobreposição2{
+    background-image: url(background002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 700px;
+    background-attachment: fixed;
+    margin-bottom: -50px;
+}
+
+
+div#rodape{
+    background-color: black;
+    background-position: relative;
+    color: white;
+    text-align: center;
+    height: 10px;
+    margin: 0px;
+}
+
+p#rodape{
+    background-color: black;
+}
